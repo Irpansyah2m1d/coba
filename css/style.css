@@ -1,0 +1,98 @@
+body {
+  max-height: 2500px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#header nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  border-bottom: solid 4px rgb(98, 255, 247);
+  box-sizing: border-box;
+}
+
+#header a {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+#header a:hover {
+  transform: scale(1.15);
+  color: rgb(238, 135, 0);
+}
+/* Section Menu */
+#section-menu {
+  margin-top: 80px;
+}
+
+#section-menu span,
+#menu-dua span,
+#menu-tiga span {
+  color: rgb(78, 78, 255);
+}
+
+#section-menu img {
+  box-shadow: 5px 5px 5px grey;
+}
+
+#section-menu h5 {
+  color: rgb(238, 135, 0);
+  font-weight: bold;
+}
+
+#section-menu a,
+#menu-dua a,
+#menu-tiga a {
+  width: 195px;
+  height: 45px;
+  line-height: 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: aliceblue;
+  color: green;
+  font-weight: bold;
+  transition: 0.5s;
+  border-color: green;
+}
+
+#section-menu a:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.2);
+}
+
+#menu-dua .card-body {
+  background-color: rgb(199, 255, 255);
+}
+
+#menu-dua a:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.2);
+}
+
+#menu-tiga a:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.2);
+}
+
+/* Footer */
+
+#footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: green;
+  transition: 0.5s;
+}
+
+#footer a:hover {
+  transform: scale(1.15);
+  color: rgb(238, 135, 0);
+}
+
+#footer h5 {
+  color: green;
+}
